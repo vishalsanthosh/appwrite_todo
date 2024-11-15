@@ -97,7 +97,7 @@ class _ToDoAppwriteState extends State<ToDoAppwrite> {
                 trailing: IconButton(
                   icon: Icon(Icons.check),
                   onPressed: ()=>_updateTaskStatus(task),),
-                  onLongPress: ()=>_deleteTask(task.title),
+                  onLongPress: ()=>_deleteTask(task.id),
               );
             }))
           ],
