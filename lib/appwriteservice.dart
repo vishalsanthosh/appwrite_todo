@@ -11,7 +11,7 @@ class Appwriteservice {
    static const databaseid="6736e636002afcf0746c";
    static const collectionid="6736e68c0005143b6659";
 
-   AppwriteService(){
+   Appwriteservice(){
     client=Client();
     client.setEndpoint(endPoint);
     client.setProject(projectid);

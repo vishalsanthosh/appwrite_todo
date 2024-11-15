@@ -5,7 +5,7 @@ class Task {
   final String title;
   final bool completed;
 
-  Task({required this.id, required this.title, required this.completed});
+  Task({ required this.title, required this.completed,required this.id});
 
   
   factory Task.fromDocument(Document doc) {
